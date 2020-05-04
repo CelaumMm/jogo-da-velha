@@ -1,0 +1,32 @@
+.tabuleiro {
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+ul li.tb-item {
+    list-style: none;
+    width: 110px;
+    height: 110px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+.tb-border-bottom {
+    border-bottom: 8px solid #333;
+}
+
+.tb-border-right {
+    border-right: 8px solid #333;
+}
+
+.cor-vitoria {
+    background-color: #90ee90;
+}
+
+.cor-derrota {
+    background-color: #ffcccb;
+}
